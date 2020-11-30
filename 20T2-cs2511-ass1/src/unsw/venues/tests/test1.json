@@ -1,0 +1,16 @@
+// A list of rooms.
+{ "command": "room", "venue": "UNSW", "room": "Scienta Galleries", "size": "medium" }
+{ "command": "room", "venue": "UNSW", "room": "Kensington Apartments", "size": "large" }
+{ "command": "room", "venue": "UNSW Paddington", "room": "Art Room", "size": "small" }
+{ "command": "room", "venue": "UNSW Paddington", "room": "Photography Room", "size": "small" }
+{ "command": "room", "venue": "UNSW", "room": "Recreation room", "size": "medium" }
+{ "command": "room", "venue": "UNSW", "room": "K17", "size": "small" }
+
+// A request.
+// New student books UNSW Scientia Galleries and Kensington Apartments.
+{ "command": "request", "id": "New student", "start": "2020-06-27", "end": "2020-06-29", "small": 0, "medium": 1, "large": 1 }
+
+// A new request. What a memelord
+// Request fails.
+{ "command": "request", "id": "Memes", "start": "2020-06-27", "end": "2020-06-29", "small": 1, "medium": 1, "large": 1 }
+{ "command": "list", "venue": "UNSW" }

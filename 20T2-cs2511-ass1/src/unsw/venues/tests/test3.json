@@ -1,0 +1,20 @@
+// Test 3: Testing the change command.
+
+// A list of rooms.
+{ "command": "room", "venue": "UNSW", "room": "Scienta Galleries", "size": "medium" }
+{ "command": "room", "venue": "UNSW", "room": "Kensington Apartments", "size": "large" }
+{ "command": "room", "venue": "UNSW Paddington", "room": "Art Room", "size": "small" }
+{ "command": "room", "venue": "UNSW Paddington", "room": "Photography Room", "size": "small" }
+{ "command": "room", "venue": "UNSW", "room": "Recreation room", "size": "medium" }
+{ "command": "room", "venue": "UNSW", "room": "K17", "size": "small" }
+
+// First request.
+{ "command": "request", "id": "New student", "start": "2020-06-27", "end": "2020-06-29", "small": 0, "medium": 1, "large": 1 }
+{ "command": "cancel", "id": "New student" }
+
+// Second request.
+{ "command": "request", "id": "Meme", "start": "2020-06-27", "end": "2020-06-29", "small": 1, "medium": 1, "large": 1 }
+
+// Meme wants to change from 1 of each to only 1 small and from 2020-06-28 to 2020-06-30
+{ "command": "change", "id": "Meme", "start": "2020-06-28", "end": "2020-06-30", "small": 1, "medium": 0, "large": 0 }
+{ "command": "list", "venue": "UNSW" }

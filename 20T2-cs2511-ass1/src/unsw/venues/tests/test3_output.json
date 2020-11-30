@@ -1,0 +1,49 @@
+{
+    "venue": "UNSW",
+    "rooms": [
+      "Scienta Galleries",
+      "Kensington Apartments"
+    ],
+    "status": "success"
+}
+
+{
+    "venue": "UNSW",
+    "rooms": [
+      "Scienta Galleries",
+      "Kensington Apartments",
+      "K17"
+    ],
+    "status": "success"
+}
+
+{
+    "venue": "UNSW",
+    "rooms": ["K17"],
+    "status": "success"
+}
+
+[
+    {
+      "reservations": [],
+      "room": "Scienta Galleries"
+    },
+    {
+      "reservations": [],
+      "room": "Kensington Apartments"
+    },
+    {
+      "reservations": [],
+      "room": "Recreation room"
+    },
+    {
+      "reservations": [{
+        "start": "2020-06-28",
+        "end": "2020-06-30",
+        "id": "Meme"
+      }],
+      "room": "K17"
+    }
+  ]
+  
+  

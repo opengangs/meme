@@ -1,0 +1,38 @@
+{
+    "venue": "UNSW",
+    "rooms": [
+      "Scientia Galleries",
+      "Kensington Apartments"
+    ],
+    "status": "success"
+}
+
+{"status": "rejected"}
+
+[
+    {
+      "reservations": [{
+        "start": "2020-06-27",
+        "end": "2020-06-29",
+        "id": "New student"
+      }],
+      "room": "Scienta Galleries"
+    },
+    {
+      "reservations": [{
+        "start": "2020-06-27",
+        "end": "2020-06-29",
+        "id": "New student"
+      }],
+      "room": "Kensington Apartments"
+    },
+    {
+      "reservations": [],
+      "room": "Recreation room"
+    },
+    {
+      "reservations": [],
+      "room": "K17"
+    }
+]  
+  
